@@ -5,7 +5,7 @@
 }
 .FS-2 {
   font-size: 48px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
 }
 
 .FS-1 {
@@ -24,13 +24,36 @@
 .mt-0 {
   margin-top: 0 !important;
 }
+.on:hover {
+  background-color: rgb(235, 216, 238);
+  padding: 4px;
+  border-radius: 4px;
+}
 
+.on {
+  background-color: rgb(242, 234, 243);
+  padding: 4px;
+}
+.back {
+  box-shadow: 5px;
+}
+
+.Line {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  margin: 9px 0 14px;
+  padding: 8px;
+}
 .FS-3 {
   font-size: 26px;
   opacity: 0.7;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Times New Roman", Times, serif;
+}
+
+.fs-1 {
+  font-family: "Play", sans-serif;
 }
 
 .FS {
@@ -202,6 +225,10 @@ body {
 
 a {
   text-decoration: dotted;
+}
+
+.con:hover {
+  color: blue;
 }
 
 .abt:hover {
