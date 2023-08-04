@@ -14,7 +14,7 @@
 }
 
 .FS-4 {
-  font-size: 27px;
+  font-size: 21px;
   font-family: "Times New Roman", Times, serif;
 }
 .mb-0 {
@@ -26,13 +26,13 @@
 }
 .on:hover {
   background-color: rgb(235, 216, 238);
-  padding: 4px;
+  padding: 92px 12px 92px 12px;
   border-radius: 4px;
 }
 
 .on {
   background-color: rgb(242, 234, 243);
-  padding: 4px;
+  padding: 92px 12px 92px 12px;
 }
 .back {
   box-shadow: 5px;
@@ -42,7 +42,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 22px;
   margin: 9px 0 14px;
-  padding: 8px;
+  padding: 24px 8px 8px 8px;
 }
 .FS-3 {
   font-size: 26px;
@@ -114,6 +114,7 @@
   --color: rgb(7, 17, 110);
   --bt-border: 1px rgb(255, 255, 255);
   --bt-shadow: 0.3px 0.5px 3px grey;
+  --secondary-color: rgb(240, 236, 236);
 }
 
 .con {
@@ -236,4 +237,42 @@ a {
 }
 .Name {
   font-family: "Times New Roman", Times, serif;
+}
+
+.footer {
+  font-size: 24px;
+  padding: 22px;
+}
+
+footer .media-link a {
+  margin: 0 20px;
+  color: var(--bg-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .media-link a:hover {
+  color: white;
+  background: var(--bg-color);
+}
+
+.mail-foot a {
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+}
+
+.bottom {
+  padding: 24px;
+}
+.inquiry {
+  font-family: "Playfair Display", serif;
+}
+
+.inquiry h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 48px;
 }
