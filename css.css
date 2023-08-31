@@ -244,6 +244,9 @@ a {
   padding: 22px;
 }
 
+.thesis {
+  text-decoration: none;
+}
 footer .media-link a {
   margin: 0 20px;
   color: var(--bg-color);
@@ -264,6 +267,18 @@ footer .media-link a:hover {
   text-decoration: none;
 }
 
+.research-top {
+  color: antiquewhite;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/248/original/447619-artwork-neon-power-lines-landscape.jpg?1693455649");
+  padding: 10px;
+  width: 1250px;
+  margin-top: 20px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.objec {
+}
 .bottom {
   padding: 24px;
 }
